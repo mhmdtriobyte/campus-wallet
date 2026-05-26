@@ -34,6 +34,15 @@ const Contact = () => {
             </button>
           </form>
         )}
+
+        <div className="mt-8 text-center">
+          <h2 className="font-bold text-lg mb-3">Follow Us</h2>
+          <div className="flex justify-center gap-6">
+            <a href="https://github.com/mhmdtriobyte" target="_blank" rel="noreferrer" className="text-gray-700 hover:text-black font-bold">GitHub</a>
+            <a href="https://www.instagram.com/mhmd.triobyte" target="_blank" rel="noreferrer" className="text-pink-500 hover:text-pink-700 font-bold">Instagram</a>
+            <a href="https://www.linkedin.com/in/mhmdissa/" target="_blank" rel="noreferrer" className="text-blue-600 hover:text-blue-800 font-bold">LinkedIn</a>
+          </div>
+        </div>
       </div>
     </div>
   );
