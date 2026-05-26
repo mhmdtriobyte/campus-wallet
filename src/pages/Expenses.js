@@ -103,6 +103,12 @@ const Expenses = () => {
           <p>Budget: <span className="font-bold">${budget}</span></p>
           <p>Spent: <span className="font-bold text-red-500">${totalSpent.toFixed(2)}</span></p>
           <p>Remaining: <span className={"font-bold " + (remaining >= 0 ? "text-green-600" : "text-red-500")}>${remaining.toFixed(2)}</span></p>
+          <div className="w-full bg-gray-200 rounded mt-3 h-4">
+            <div
+              className={"h-4 rounded " + (remaining >= 0 ? "bg-green-500" : "bg-red-500")}
+              style={{ width: Math.min((totalSpent / budget) * 100, 100) + "%" }}
+            ></div>
+          </div>
         </div>
 
         <div className="bg-white p-4 rounded shadow">

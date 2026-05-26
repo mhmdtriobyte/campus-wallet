@@ -5,7 +5,7 @@ const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-green-600 p-4">
+    <nav className="bg-gray-900 p-4">
       <div className="flex justify-between items-center">
         <Link to="/" className="text-white text-xl font-bold">CampusWallet</Link>
 
