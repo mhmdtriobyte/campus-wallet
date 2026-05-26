@@ -14,9 +14,21 @@ const About = () => {
           This app gives you a quick way to log expenses, set a budget, and see
           how much you have left.
         </p>
-        <p className="text-gray-700 text-lg">
-          Built with ReactJS and Tailwind CSS.
-        </p>
+        <h2 className="text-2xl font-bold mt-10 mb-4">Tech Stack</h2>
+        <div className="grid md:grid-cols-3 gap-4">
+          <div className="bg-white p-4 rounded shadow text-center border-l-4 border-green-500">
+            <h3 className="font-bold text-lg">ReactJS</h3>
+            <p className="text-gray-600 mt-1">Frontend library for building the UI with reusable components</p>
+          </div>
+          <div className="bg-white p-4 rounded shadow text-center border-l-4 border-blue-500">
+            <h3 className="font-bold text-lg">Tailwind CSS</h3>
+            <p className="text-gray-600 mt-1">Utility-first CSS framework for fast and responsive styling</p>
+          </div>
+          <div className="bg-white p-4 rounded shadow text-center border-l-4 border-purple-500">
+            <h3 className="font-bold text-lg">React Router</h3>
+            <p className="text-gray-600 mt-1">Handles navigation between pages without reloading</p>
+          </div>
+        </div>
       </div>
     </div>
   );
