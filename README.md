@@ -32,6 +32,14 @@ CampusWallet is a simple budget tracking web app made for university students. I
 4. Start the app: npm start
 5. Open http://localhost:3000 in your browser
 
+## Screenshots
+
+![Screenshot 1](screenshots/pic1.png)
+![Screenshot 2](screenshots/pic2.png)
+![Screenshot 3](screenshots/pic3.png)
+![Screenshot 4](screenshots/pic4.png)
+![Screenshot 5](screenshots/pic5.png)
+
 ## Author
 
 Mohammad Issa (42330160)
