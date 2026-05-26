@@ -5,14 +5,14 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="text-center py-20 bg-gradient-to-r from-green-500 to-green-700 text-white">
-        <h1 className="text-4xl font-bold">CampusWallet</h1>
-        <p className="mt-4 text-lg">Track your student budget the easy way</p>
-        <Link to="/expenses" className="mt-6 inline-block bg-white text-green-600 px-6 py-2 rounded font-bold">
+        <h1 className="text-4xl font-bold fade-in">CampusWallet</h1>
+        <p className="mt-4 text-lg fade-in-delay-1">Track your student budget the easy way</p>
+        <Link to="/expenses" className="mt-6 inline-block bg-white text-green-600 px-6 py-2 rounded font-bold fade-in-delay-2">
           Get Started
         </Link>
       </div>
 
-      <div className="max-w-4xl mx-auto py-10 px-4">
+      <div className="max-w-4xl mx-auto py-10 px-4 fade-in">
         <h2 className="text-2xl font-bold text-center mb-6">Features</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-white p-6 rounded shadow text-center border-l-4 border-green-500 hover:scale-105 transition-transform">
@@ -30,7 +30,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto py-10 px-4">
+      <div className="max-w-4xl mx-auto py-10 px-4 fade-in-delay-1">
         <h2 className="text-2xl font-bold text-center mb-6">How It Works</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="text-center">
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto py-10 px-4">
+      <div className="max-w-4xl mx-auto py-10 px-4 fade-in-delay-2">
         <h2 className="text-2xl font-bold text-center mb-6">FAQ</h2>
         <FaqItem
           question="Is CampusWallet free?"
